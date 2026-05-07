@@ -4,25 +4,25 @@ const products = [
   {
     name: "Skincare",
     description: "Gentle, effective formulas for every skin type",
-    image: "/images/Group 12.png",
+    image: "/images/skincare.png",
     color: "bg-cream",
   },
   {
     name: "Makeup",
     description: "Expressive color for authentic self-expression",
-    image: "/images/Group 13.png",
+    image: "/images/makeup.png",
     color: "bg-purple-light/30",
   },
   {
     name: "Perfumes",
     description: "Gender-neutral scents that speak to everyone",
-    image: "/images/Group 14.png",
+    image: "/images/perfume.png",
     color: "bg-gold/30",
   },
   {
     name: "Clothing",
     description: "New collection inspired by comfort and inclusivity",
-    image: "/images/Group 11.png",
+    image: "/images/clothes.png",
     color: "bg-purple-light/30",
   },
 ]
@@ -73,7 +73,7 @@ export function Products() {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="#shop"
+            href="/shop"
             className="inline-block font-body bg-purple-deep text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-light transition-colors"
           >
             View Full Collection

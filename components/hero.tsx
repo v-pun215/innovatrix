@@ -62,18 +62,19 @@ export function Hero() {
               </div>
               <div className="space-y-4 pt-8">
                 <div className="relative aspect-square rounded-2xl overflow-hidden bg-gold/30 flex items-center justify-center">
-                  <div className="text-center p-4">
-                    <p className="font-heading text-4xl font-bold text-purple-deep">x</p>
-                    <p className="text-sm font-body text-purple-deep/70 mt-2">Collaboration</p>
-                  </div>
-                </div>
-                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl bg-cream">
                   <Image
-                    src="/images/Group 12.png"
+                    src="/images/skincareormakeup.png"
                     alt="Rare Beauty Product"
                     fill
                     className="object-contain p-8"
                   />
+                </div>
+                <div className="relative aspect-[3/4] rounded-2xl overflow-hidden bg-cream flex items-center justify-center">
+
+                  <div className="text-center p-4">
+                    <p className="font-heading text-4xl font-bold text-purple-deep">x</p>
+                    <p className="text-sm font-body text-purple-deep/70 mt-2">Collaboration</p>
+                  </div>
                 </div>
               </div>
             </div>

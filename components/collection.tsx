@@ -13,7 +13,7 @@ export function Collection() {
             The Collaboration
           </h2>
           <p className="text-purple-deep/70 font-body max-w-2xl mx-auto">
-            A visual journey through the Rare Beauty x Justin Bieber collection, where music 
+            A visual journey through the Rare Beauty x Justin Bieber collection, where music
             meets beauty and everyone is welcome.
           </p>
         </div>
@@ -21,10 +21,15 @@ export function Collection() {
         {/* Bento Grid - matching the design */}
         <div className="grid grid-cols-4 md:grid-cols-6 gap-4">
           {/* Large Feature - Left side (spans 2 cols, 2 rows) */}
-          <div className="col-span-4 md:col-span-2 row-span-2 relative rounded-3xl overflow-hidden bg-peach min-h-[400px]">
-            {/* Placeholder for main image - will be updated later */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-purple-deep/30 font-body text-sm">Image coming soon</p>
+          <div className="col-span-4 md:col-span-2 row-span-2 relative rounded-3xl overflow-hidden bg-peach min-h-[400px] p-4">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden">
+              <Image
+                src="/images/rare.png"
+                alt="Main collection image"
+                fill
+                className="object-cover"
+                priority
+              />
             </div>
           </div>
 
@@ -45,14 +50,28 @@ export function Collection() {
             </div>
           </div>
 
-          {/* Gold rectangle placeholder */}
-          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-gold min-h-[180px]">
-            {/* Placeholder for image */}
+          {/* Gold rectangle - perfume */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-gold min-h-[180px] p-4">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden">
+              <Image
+                src="/images/perfume.png"
+                alt="Perfume"
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
 
-          {/* Purple rectangle placeholder */}
-          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-purple-light/50 min-h-[180px]">
-            {/* Placeholder for image */}
+          {/* Purple rectangle - clothes */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-purple-light/50 min-h-[180px] p-4">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden">
+              <Image
+                src="/images/clothes.png"
+                alt="Clothing"
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
 
           {/* Inclusivity First card */}
@@ -65,14 +84,28 @@ export function Collection() {
             </p>
           </div>
 
-          {/* Cream/Yellow rectangle placeholder */}
-          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-cream min-h-[180px]">
-            {/* Placeholder for image */}
+          {/* Cream/Yellow rectangle - skincare */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-cream min-h-[180px] p-4">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden">
+              <Image
+                src="/images/skincare.png"
+                alt="Skincare"
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
 
-          {/* Light purple rectangle placeholder */}
-          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-purple-light/30 min-h-[180px]">
-            {/* Placeholder for image */}
+          {/* Light purple rectangle - makeup */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-purple-light/30 min-h-[180px] p-4">
+            <div className="relative w-full h-full rounded-2xl overflow-hidden">
+              <Image
+                src="/images/makeup.png"
+                alt="Makeup"
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
         </div>
       </div>

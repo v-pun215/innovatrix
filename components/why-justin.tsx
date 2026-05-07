@@ -7,15 +7,14 @@ export function WhyJustin() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Image Side */}
           <div className="relative">
-            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative aspect-[4/5] rounded-3xl overflow-hidden ">
               <Image
-                src="/images/image 6.png"
+                src="/images/image.png"
                 alt="Justin Bieber"
                 fill
                 className="object-cover"
               />
-              {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-t from-purple-deep/30 to-transparent" />
+              
             </div>
             {/* Floating card */}
             <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-xl max-w-xs">
