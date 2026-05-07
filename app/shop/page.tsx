@@ -136,24 +136,26 @@ export default function ShopPage() {
                 className="group bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-lg transition-shadow"
               >
                 {/* Product Image */}
-                <div className="relative aspect-square bg-blush/50 p-6">
+                <div className="relative aspect-square bg-blush/50 p-8">
                   {product.badge && (
-                    <span className={`absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-body font-medium ${
-                      product.badge === "Coming Soon" 
-                        ? "bg-purple-deep text-white" 
-                        : product.badge === "Bestseller"
-                        ? "bg-gold text-white"
-                        : "bg-purple-light text-white"
-                    }`}>
+                    <span
+                      className={`absolute top-4 left-4 px-3 py-1 rounded-full text-xs font-body font-medium ${
+                        product.badge === "Coming Soon"
+                          ? "bg-purple-deep text-white"
+                          : product.badge === "Bestseller"
+                          ? "bg-gold text-white"
+                          : "bg-purple-light text-white"
+                      }`}
+                    >
                       {product.badge}
                     </span>
                   )}
-                  <div className="relative w-full h-full">
+                  <div className="relative w-full h-full scale-90">
                     <Image
                       src={product.image}
                       alt={product.name}
                       fill
-                      className="object-contain group-hover:scale-105 transition-transform"
+                      className="object-contain object-center"
                     />
                   </div>
                 </div>

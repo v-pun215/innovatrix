@@ -33,7 +33,7 @@
       "description": "Weightless, long-lasting liquid blush that blends and builds beautifully for a soft, healthy flush.",
       "price": 23,
       "category": "makeup",
-      "image": "/images/Group 13.png",
+      "image": "/images/makeup_pl.png",
       "badge": "Bestseller"
     },
     {
@@ -42,7 +42,7 @@
       "description": "A weightless luminizer that melts into skin for a natural, dewy glow.",
       "price": 25,
       "category": "makeup",
-      "image": "/images/Group 13.png",
+      "image": "/images/makeup_pl.png",
       "badge": null
     },
     {
@@ -51,7 +51,7 @@
       "description": "A 4-in-1 hydrating primer and setting spray with a calming scent.",
       "price": 28,
       "category": "skincare",
-      "image": "/images/Group 12.png",
+      "image": "/images/skincare_pl.png",
       "badge": "New"
     },
     {
@@ -60,7 +60,7 @@
       "description": "A nourishing body lotion that hydrates and soothes for all-day comfort.",
       "price": 32,
       "category": "skincare",
-      "image": "/images/Group 12.png",
+      "image": "/images/skincare_pl.png",
       "badge": null
     },
     {
@@ -69,7 +69,7 @@
       "description": "A gender-neutral fragrance celebrating authenticity with notes of bergamot, iris, and white woods.",
       "price": 68,
       "category": "perfume",
-      "image": "/images/Group 14.png",
+      "image": "/images/perfume_pl.png",
       "badge": "Limited Edition"
     },
     {
@@ -78,7 +78,7 @@
       "description": "Ultra-soft, oversized hoodie inspired by Justin's signature comfort style. Unisex fit.",
       "price": 85,
       "category": "clothing",
-      "image": "/images/Group 11.png",
+      "image": "/images/cloth_pl.png",
       "badge": "Coming Soon"
     },
     {
@@ -87,7 +87,7 @@
       "description": "Premium cotton tee featuring exclusive collaboration artwork. Gender-neutral sizing.",
       "price": 45,
       "category": "clothing",
-      "image": "/images/Group 11.png",
+      "image": "/images/cloth_pl.png",
       "badge": "Coming Soon"
     },
     {
@@ -96,7 +96,7 @@
       "description": "Adjustable cap with embroidered Rare Beauty x JB logo. One size fits all.",
       "price": 35,
       "category": "clothing",
-      "image": "/images/Group 11.png",
+      "image": "/images/cloth_pl.png",
       "badge": "Coming Soon"
     }
   ]
