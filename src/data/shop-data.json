@@ -1,0 +1,103 @@
+{
+  "announcement": {
+    "title": "Something Special is Coming",
+    "subtitle": "The Rare Beauty x Justin Bieber collection drops soon",
+    "description": "Be the first to know when our exclusive gender-neutral beauty and clothing collection launches. Sign up for early access."
+  },
+  "categories": [
+    {
+      "id": "skincare",
+      "name": "Skincare",
+      "description": "Gentle, effective formulas for every skin type"
+    },
+    {
+      "id": "makeup",
+      "name": "Makeup",
+      "description": "Expressive color for authentic self-expression"
+    },
+    {
+      "id": "perfume",
+      "name": "Perfumes",
+      "description": "Gender-neutral scents that speak to everyone"
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "description": "Comfort-first apparel inspired by inclusivity"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Soft Pinch Liquid Blush",
+      "description": "Weightless, long-lasting liquid blush that blends and builds beautifully for a soft, healthy flush.",
+      "price": 23,
+      "category": "makeup",
+      "image": "/images/Group 13.png",
+      "badge": "Bestseller"
+    },
+    {
+      "id": 2,
+      "name": "Positive Light Liquid Luminizer",
+      "description": "A weightless luminizer that melts into skin for a natural, dewy glow.",
+      "price": 25,
+      "category": "makeup",
+      "image": "/images/Group 13.png",
+      "badge": null
+    },
+    {
+      "id": 3,
+      "name": "Always An Optimist Mist",
+      "description": "A 4-in-1 hydrating primer and setting spray with a calming scent.",
+      "price": 28,
+      "category": "skincare",
+      "image": "/images/Group 12.png",
+      "badge": "New"
+    },
+    {
+      "id": 4,
+      "name": "Find Comfort Body Lotion",
+      "description": "A nourishing body lotion that hydrates and soothes for all-day comfort.",
+      "price": 32,
+      "category": "skincare",
+      "image": "/images/Group 12.png",
+      "badge": null
+    },
+    {
+      "id": 5,
+      "name": "Rare Eau de Parfum",
+      "description": "A gender-neutral fragrance celebrating authenticity with notes of bergamot, iris, and white woods.",
+      "price": 68,
+      "category": "perfume",
+      "image": "/images/Group 14.png",
+      "badge": "Limited Edition"
+    },
+    {
+      "id": 6,
+      "name": "Purpose Oversized Hoodie",
+      "description": "Ultra-soft, oversized hoodie inspired by Justin's signature comfort style. Unisex fit.",
+      "price": 85,
+      "category": "clothing",
+      "image": "/images/Group 11.png",
+      "badge": "Coming Soon"
+    },
+    {
+      "id": 7,
+      "name": "Beauty & The Beat Tee",
+      "description": "Premium cotton tee featuring exclusive collaboration artwork. Gender-neutral sizing.",
+      "price": 45,
+      "category": "clothing",
+      "image": "/images/Group 11.png",
+      "badge": "Coming Soon"
+    },
+    {
+      "id": 8,
+      "name": "Rare Essentials Cap",
+      "description": "Adjustable cap with embroidered Rare Beauty x JB logo. One size fits all.",
+      "price": 35,
+      "category": "clothing",
+      "image": "/images/Group 11.png",
+      "badge": "Coming Soon"
+    }
+  ]
+}

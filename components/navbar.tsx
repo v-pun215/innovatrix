@@ -30,7 +30,7 @@ export function Navbar() {
               Products
             </Link>
             <Link
-              href="#shop"
+              href="/shop"
               className="font-body bg-purple-deep text-white px-6 py-2 rounded-full hover:bg-purple-light transition-colors"
             >
               Shop Now
@@ -80,7 +80,7 @@ export function Navbar() {
                 Products
               </Link>
               <Link
-                href="#shop"
+                href="/shop"
                 className="font-body bg-purple-deep text-white px-6 py-2 rounded-full text-center hover:bg-purple-light transition-colors"
                 onClick={() => setIsOpen(false)}
               >

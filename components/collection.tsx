@@ -2,92 +2,77 @@ import Image from "next/image"
 
 export function Collection() {
   return (
-    <section id="collection" className="py-24 bg-cream">
+    <section id="collection" className="py-24 bg-blush">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <p className="text-gold font-body font-medium tracking-widest uppercase mb-4">
-            Featured
+            Featuring
           </p>
           <h2 className="font-heading text-4xl md:text-5xl font-bold text-purple-deep mb-6">
             The Collaboration
           </h2>
           <p className="text-purple-deep/70 font-body max-w-2xl mx-auto">
-            A visual journey through the Rare Beauty x Justin Bieber collection, 
-            where music meets beauty and everyone is welcome.
+            A visual journey through the Rare Beauty x Justin Bieber collection, where music 
+            meets beauty and everyone is welcome.
           </p>
         </div>
 
-        {/* Bento Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[250px]">
-          {/* Large Feature */}
-          <div className="col-span-2 row-span-2 relative rounded-3xl overflow-hidden group">
-            <Image
-              src="/images/Slide 16_9 - 1.png"
-              alt="Rare Beauty x Justin Bieber Collection"
-              fill
-              className="object-cover transition-transform group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-purple-deep/60 to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6">
-              <p className="text-white font-heading text-2xl font-bold">The Vision</p>
-              <p className="text-white/80 font-body text-sm mt-1">Beauty for everyone</p>
+        {/* Bento Grid - matching the design */}
+        <div className="grid grid-cols-4 md:grid-cols-6 gap-4">
+          {/* Large Feature - Left side (spans 2 cols, 2 rows) */}
+          <div className="col-span-4 md:col-span-2 row-span-2 relative rounded-3xl overflow-hidden bg-peach min-h-[400px]">
+            {/* Placeholder for main image - will be updated later */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <p className="text-purple-deep/30 font-body text-sm">Image coming soon</p>
             </div>
           </div>
 
-          {/* Product Showcase 1 */}
-          <div className="relative rounded-3xl overflow-hidden bg-gold/30 p-4">
-            <Image
-              src="/images/Group 12.png"
-              alt="Skincare Product"
-              fill
-              className="object-contain p-4"
-            />
+          {/* Beauty And the Beat card */}
+          <div className="col-span-2 md:col-span-2 relative rounded-3xl overflow-hidden bg-peach p-6 flex items-center justify-between min-h-[180px]">
+            <div>
+              <p className="font-heading text-2xl font-bold text-gold italic leading-tight">
+                {'"'}Beauty<br />And the<br />Beat{'"'}
+              </p>
+            </div>
+            <div className="relative w-20 h-20">
+              <Image
+                src="/images/butterfly.png"
+                alt="Butterfly"
+                fill
+                className="object-contain"
+              />
+            </div>
           </div>
 
-          {/* Product Showcase 2 */}
-          <div className="relative rounded-3xl overflow-hidden bg-purple-light/30 p-4">
-            <Image
-              src="/images/Group 13.png"
-              alt="Makeup Product"
-              fill
-              className="object-contain p-4"
-            />
+          {/* Gold rectangle placeholder */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-gold min-h-[180px]">
+            {/* Placeholder for image */}
           </div>
 
-          {/* Quote Card */}
-          <div className="bg-purple-deep rounded-3xl p-6 flex items-center justify-center">
-            <p className="font-heading text-white text-center text-lg italic font-bold">
-              {'"'}Everyone belongs{'"'}
+          {/* Purple rectangle placeholder */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-purple-light/50 min-h-[180px]">
+            {/* Placeholder for image */}
+          </div>
+
+          {/* Inclusivity First card */}
+          <div className="col-span-2 md:col-span-2 bg-purple-deep rounded-3xl p-6 flex flex-col items-center justify-center min-h-[180px]">
+            <p className="font-heading text-3xl font-bold text-gold text-center leading-tight">
+              Inclusivity<br />First
+            </p>
+            <p className="text-white/80 font-body text-sm mt-3 text-center">
+              Beauty without<br />Boundaries
             </p>
           </div>
 
-          {/* Product Showcase 3 */}
-          <div className="relative rounded-3xl overflow-hidden bg-blush p-4">
-            <Image
-              src="/images/Group 11.png"
-              alt="Clothing Product"
-              fill
-              className="object-contain p-4"
-            />
+          {/* Cream/Yellow rectangle placeholder */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-cream min-h-[180px]">
+            {/* Placeholder for image */}
           </div>
 
-          {/* Mood Board */}
-          <div className="col-span-2 relative rounded-3xl overflow-hidden group">
-            <Image
-              src="/images/Frame 9.png"
-              alt="Color Palette"
-              fill
-              className="object-cover transition-transform group-hover:scale-105"
-            />
-          </div>
-
-          {/* Stats Card */}
-          <div className="col-span-2 bg-gold rounded-3xl p-6 flex items-center justify-center">
-            <div className="text-center">
-              <p className="text-4xl font-heading font-bold text-purple-deep">Inclusivity First</p>
-              <p className="text-purple-deep/70 font-body mt-2">Beauty without boundaries</p>
-            </div>
+          {/* Light purple rectangle placeholder */}
+          <div className="col-span-1 relative rounded-3xl overflow-hidden bg-purple-light/30 min-h-[180px]">
+            {/* Placeholder for image */}
           </div>
         </div>
       </div>
