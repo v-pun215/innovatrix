@@ -4,26 +4,26 @@ const products = [
   {
     name: "Skincare",
     description: "Gentle, effective formulas for every skin type",
-    image: "/Group 12.png",
-    color: "bg-gold/30",
+    image: "/images/Group 12.png",
+    color: "bg-cream",
   },
   {
     name: "Makeup",
     description: "Expressive color for authentic self-expression",
-    image: "/Group 13.png",
+    image: "/images/Group 13.png",
     color: "bg-purple-light/30",
   },
   {
-    name: "Perfume",
+    name: "Perfumes",
     description: "Gender-neutral scents that speak to everyone",
-    image: "/Group 14.png",
-    color: "bg-purple-light/30",
+    image: "/images/Group 14.png",
+    color: "bg-gold/30",
   },
   {
     name: "Clothing",
     description: "New collection inspired by comfort and inclusivity",
-    image: "/Group 11.png",
-    color: "bg-cream",
+    image: "/images/Group 11.png",
+    color: "bg-purple-light/30",
   },
 ]
 
@@ -33,13 +33,13 @@ export function Products() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <p className="text-gold font-medium tracking-widest uppercase mb-4">
+          <p className="text-gold font-body font-medium tracking-widest uppercase mb-4">
             The Collection
           </p>
-          <h2 className="font-serif text-4xl md:text-5xl text-purple-deep mb-6">
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-purple-deep mb-6">
             Products For Everyone
           </h2>
-          <p className="text-purple-deep/70 max-w-2xl mx-auto">
+          <p className="text-purple-deep/70 font-body max-w-2xl mx-auto">
             Existing Rare Beauty products reimagined with gender-neutral marketing, 
             plus a new clothing line inspired by Justin&apos;s signature style.
           </p>
@@ -63,8 +63,8 @@ export function Products() {
                 </div>
               </div>
               <div className="mt-4 text-center">
-                <h3 className="font-serif text-xl text-purple-deep">{product.name}</h3>
-                <p className="text-purple-deep/60 text-sm mt-1">{product.description}</p>
+                <h3 className="font-heading text-xl font-bold text-purple-deep">{product.name}</h3>
+                <p className="text-purple-deep/60 font-body text-sm mt-1">{product.description}</p>
               </div>
             </div>
           ))}
@@ -74,7 +74,7 @@ export function Products() {
         <div className="text-center mt-16">
           <a
             href="#shop"
-            className="inline-block bg-purple-deep text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-light transition-colors"
+            className="inline-block font-body bg-purple-deep text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-light transition-colors"
           >
             View Full Collection
           </a>

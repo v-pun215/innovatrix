@@ -7,10 +7,10 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="font-serif text-3xl tracking-wide">
+            <Link href="/" className="font-heading text-3xl font-bold tracking-wide">
               Rare Beauty <span className="text-gold">x</span> JB
             </Link>
-            <p className="mt-4 text-white/70 max-w-md leading-relaxed">
+            <p className="mt-4 text-white/70 font-body max-w-md leading-relaxed">
               A collaboration redefining gender-neutral beauty through the lens of 
               inclusivity, self-expression, and authenticity. Beauty for everyone.
             </p>
@@ -47,32 +47,32 @@ export function Footer() {
 
           {/* Links */}
           <div>
-            <h4 className="font-serif text-lg mb-4">Shop</h4>
+            <h4 className="font-heading text-lg font-bold mb-4">Shop</h4>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">Skincare</Link></li>
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">Makeup</Link></li>
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">Perfume</Link></li>
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">Clothing</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">Skincare</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">Makeup</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">Perfume</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">Clothing</Link></li>
             </ul>
           </div>
 
           <div>
-            <h4 className="font-serif text-lg mb-4">About</h4>
+            <h4 className="font-heading text-lg font-bold mb-4">About</h4>
             <ul className="space-y-2">
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">Our Story</Link></li>
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">The Collaboration</Link></li>
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">Mental Health</Link></li>
-              <li><Link href="#" className="text-white/70 hover:text-gold transition-colors">Contact</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">Our Story</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">The Collaboration</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">Mental Health</Link></li>
+              <li><Link href="#" className="font-body text-white/70 hover:text-gold transition-colors">Contact</Link></li>
             </ul>
           </div>
         </div>
 
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-white/50 text-sm">
+          <p className="text-white/50 font-body text-sm">
             InnovateTrix Hackathon Project
           </p>
-          <p className="text-white/50 text-sm">
+          <p className="text-white/50 font-body text-sm">
             Rare Beauty x Justin Bieber Concept
           </p>
         </div>

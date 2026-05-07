@@ -15,26 +15,26 @@ export function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-center lg:text-left">
-            <p className="text-gold font-medium tracking-widest uppercase mb-4">
+            <p className="text-gold font-body font-medium tracking-widest uppercase mb-4">
               A New Era of Beauty
             </p>
-            <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-purple-deep leading-tight mb-6">
+            <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-purple-deep leading-tight mb-6">
               <span className="text-balance">Beauty Has No Gender</span>
             </h1>
-            <p className="text-lg md:text-xl text-purple-deep/80 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+            <p className="text-lg md:text-xl font-body text-purple-deep/80 max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
               Rare Beauty and Justin Bieber unite to redefine inclusivity in beauty. 
               A collaboration that celebrates self-expression for everyone.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Link
                 href="#products"
-                className="bg-purple-deep text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-light transition-colors"
+                className="font-body bg-purple-deep text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-light transition-colors"
               >
-                Explore Collection
+                Explore Collections
               </Link>
               <Link
                 href="#about"
-                className="border-2 border-purple-deep text-purple-deep px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-deep hover:text-white transition-colors"
+                className="font-body border-2 border-purple-deep text-purple-deep px-8 py-4 rounded-full text-lg font-medium hover:bg-purple-deep hover:text-white transition-colors"
               >
                 Learn More
               </Link>
@@ -47,7 +47,7 @@ export function Hero() {
               <div className="space-y-4">
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
                   <Image
-                    src="/image 6.png"
+                    src="/images/image 6.png"
                     alt="Justin Bieber"
                     fill
                     className="object-cover"
@@ -56,20 +56,20 @@ export function Hero() {
                 </div>
                 <div className="relative aspect-square rounded-2xl overflow-hidden bg-purple-light/30 flex items-center justify-center">
                   <div className="text-center p-4">
-                    <p className="font-serif text-2xl text-purple-deep">{'"'}Everyone belongs{'"'}</p>
+                    <p className="font-heading text-2xl font-bold text-purple-deep">{'"'}Everyone belongs{'"'}</p>
                   </div>
                 </div>
               </div>
               <div className="space-y-4 pt-8">
                 <div className="relative aspect-square rounded-2xl overflow-hidden bg-gold/30 flex items-center justify-center">
                   <div className="text-center p-4">
-                    <p className="font-serif text-4xl text-purple-deep">x</p>
-                    <p className="text-sm text-purple-deep/70 mt-2">Collaboration</p>
+                    <p className="font-heading text-4xl font-bold text-purple-deep">x</p>
+                    <p className="text-sm font-body text-purple-deep/70 mt-2">Collaboration</p>
                   </div>
                 </div>
                 <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-xl bg-cream">
                   <Image
-                    src="/Group 12.png"
+                    src="/images/Group 12.png"
                     alt="Rare Beauty Product"
                     fill
                     className="object-contain p-8"
