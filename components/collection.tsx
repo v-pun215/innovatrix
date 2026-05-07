@@ -34,21 +34,22 @@ export function Collection() {
           </div>
 
           {/* Beauty And the Beat card */}
-          <div className="col-span-2 md:col-span-2 relative rounded-3xl overflow-hidden bg-peach p-6 flex items-center justify-between min-h-[180px]">
-            <div>
-              <p className="font-heading text-2xl font-bold text-gold italic leading-tight">
-                {'"'}Beauty<br />And the<br />Beat{'"'}
-              </p>
-            </div>
-            <div className="relative w-20 h-20">
-              <Image
-                src="/images/butterfly.png"
-                alt="Butterfly"
-                fill
-                className="object-contain"
-              />
-            </div>
+          <div className="col-span-2 md:col-span-2 relative rounded-3xl overflow-hidden bg-[#F9F0E6] p-6 flex items-center justify-between min-h-[180px]">
+          <div>
+            <p className="font-heading text-2xl font-bold text-gold italic leading-tight">
+              {'"'}Beauty<br />And the<br />Beat{'"'}
+            </p>
           </div>
+
+          <div className="relative w-20 h-20">
+            <Image
+              src="/images/butterfly.png"
+              alt="Butterfly"
+              fill
+              className="object-contain"
+            />
+          </div>
+        </div>
 
           {/* Gold rectangle - perfume */}
           <div className="col-span-1 relative rounded-3xl overflow-hidden bg-gold min-h-[180px] p-4">
